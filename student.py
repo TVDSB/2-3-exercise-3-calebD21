@@ -12,6 +12,8 @@ def main():
         print("buzz")
     elif y%3 == 0:
         print("fizz")
+    else:
+        print(y)
 
 if __name__ =='__main__':
     main()
