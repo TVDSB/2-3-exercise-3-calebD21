@@ -7,7 +7,7 @@ def main():
     y = int(x)
 
     if y%3 == 0 and y%5 == 0:
-    print("fizzbuzz")
+        print("fizzbuzz")
     elif y%5 == 0:
         print("buzz")
     elif y%3 == 0:
